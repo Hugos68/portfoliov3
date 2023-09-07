@@ -9,7 +9,7 @@
 	</div>
 	<img
 		class="h-96 rounded-tl-md rounded-bl-[80px] rounded-br-md rounded-tr-[80px]"
-		src="/hugomozaic-transformed.png"
+		src="/hugosketch.png"
 		alt="profile"
 	/>
 </section>
