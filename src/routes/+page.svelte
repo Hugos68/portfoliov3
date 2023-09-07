@@ -1,4 +1,15 @@
-<section class="flex justify-between items-center">
-    <h1 class="text-[clamp(2.5rem,10vw,4rem)] font-semibold">Hugo Korte</h1>
-    <img class="rounded-full w-36 lg:w-48" src="/hugo.jpg" alt="hugokorte" />
+<svelte:head>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</svelte:head>
+
+<section class="mt-[10vh] flex justify-evenly items-center">
+	<div class="w-min text-end">
+		<p class="text-yellow-200 font-bold tracking-widest p-0">Fullstack Developer</p>
+		<h1 class="text-[clamp(2.75rem,10vw,8rem)] leading-tight font-extrabold">Hugo Korte</h1>
+	</div>
+	<img
+		class="h-96 rounded-tl-md rounded-bl-[80px] rounded-br-md rounded-tr-[80px]"
+		src="/hugomozaic-transformed.png"
+		alt="profile"
+	/>
 </section>
