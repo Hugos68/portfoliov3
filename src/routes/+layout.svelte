@@ -4,11 +4,16 @@
 	import Header from './Header.svelte';
 
 	// TODO: Remove ts-expect-error when the View Transition API is typed
-	onNavigate(() => {
+	onNavigate((navigation) => {
 		// @ts-expect-error View Transition API isn't typed yet
 		if (!document.startViewTransition) return;
-		// @ts-expect-error View Transition API isn't typed yet
-		return new Promise((fulfil) => document.startViewTransition(() => new Promise(fulfil)));
+		return new Promise((fulfil) =>
+			// @ts-expect-error View Transition API isn't typed yet
+			document.startViewTransition(async () => {
+				fulfil();
+				await navigation.complete;
+			})
+		);
 	});
 </script>
 

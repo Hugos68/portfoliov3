@@ -2,7 +2,7 @@
 	import { beforeNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { createCollapsible, melt } from '@melt-ui/svelte';
-	import { slide } from 'svelte/transition';
+	import { scale, slide } from 'svelte/transition';
 
 	const {
 		elements: { content, trigger },
@@ -41,7 +41,11 @@
 			</nav>
 
 			<button class="hover:opacity-75 transition-opacity md:hidden" use:melt={$trigger}>
-				<i class="fa-solid fa-bars fa-xl" />
+				{#if $open}
+					<i class="fa-solid fa-x fa-xl" in:scale={{ duration: 150 }} />
+				{:else}
+					<i class="fa-solid fa-bars fa-xl" in:scale={{ duration: 150 }} />
+				{/if}
 			</button>
 
 			<nav class="flex gap-4 lg:gap-8 absolute px-8 right-0">
