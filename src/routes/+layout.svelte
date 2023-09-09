@@ -17,7 +17,7 @@
 	<meta name="title" content="Hugo Korte" />
 	<meta
 		name="description"
-		content="Hugo Korte's Portfolio, read about me, see my work and connect with me."
+		content="Hugo Korte's Portfolio. Read about me, see my work and connect with me!"
 	/>
 	<meta name="keywords" content="Portfolio, Work, Programming, Software, Hugo Korte" />
 	<meta name="robots" content="index, follow" />
@@ -28,6 +28,6 @@
 </svelte:head>
 
 <Header />
-<main class="m-4 md:mx-16 lg:mx-32 xl:mx-48">
+<main class="m-4 mt-[25vh] md:mx-16 lg:mx-32 xl:mx-48">
 	<slot />
 </main>

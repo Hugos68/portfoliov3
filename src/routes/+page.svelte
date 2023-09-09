@@ -1,4 +1,4 @@
-<section class="mt-[25vh] flex flex-col md:flex-row justify-evenly items-center pb-6">
+<section class="flex flex-col md:flex-row justify-evenly items-center pb-6">
 	<div class="md:w-min text-end">
 		<p class="text-yellow-200 font-bold tracking-widest p-0">Fullstack Developer</p>
 		<h1 class="text-[clamp(2.50rem,10vw,8rem)] leading-tight font-extrabold">Hugo Korte</h1>
