@@ -1,7 +1,7 @@
 <section class="mt-[20vh] flex flex-col md:flex-row justify-evenly items-center pb-6">
 	<div class="md:w-min text-end">
 		<p class="text-yellow-200 font-bold tracking-widest p-0">Fullstack Developer</p>
-		<h1 class="text-[clamp(2.75rem,10vw,8rem)] leading-tight font-extrabold">Hugo Korte</h1>
+		<h1 class="text-[clamp(2.50rem,10vw,8rem)] leading-tight font-extrabold">Hugo Korte</h1>
 	</div>
 	<img
 		class="hidden md:block h-48 lg:h-64 xl:h-80 rounded-tl-md rounded-bl-[80px] rounded-br-md rounded-tr-[80px]"

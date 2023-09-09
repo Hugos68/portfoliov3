@@ -14,9 +14,20 @@
 
 <svelte:head>
 	<script src="https://kit.fontawesome.com/7003bffa3f.js" crossorigin="anonymous"></script>
+	<meta name="title" content="Hugo Korte" />
+	<meta
+		name="description"
+		content="Hugo Korte's Portfolio, read about me, see my work and connect with me."
+	/>
+	<meta name="keywords" content="Portfolio, Work, Programming, Software, Hugo Korte" />
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="English" />
+	<meta name="revisit-after" content="30 days" />
+	<meta name="author" content="Hugo Korte" />
 </svelte:head>
 
 <Header />
-<main>
+<main class="m-4 md:mx-16 lg:mx-32 xl:mx-48">
 	<slot />
 </main>
