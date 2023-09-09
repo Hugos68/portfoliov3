@@ -28,6 +28,6 @@
 </svelte:head>
 
 <Header />
-<main class="m-4 mt-[25vh] md:mx-16 lg:mx-32 xl:mx-48">
+<main class="m-4 mt-[10rem] md:mx-16 lg:mx-32 xl:mx-48">
 	<slot />
 </main>

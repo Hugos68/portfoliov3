@@ -1,6 +1,6 @@
 <section class="flex flex-col md:flex-row justify-evenly items-center pb-6">
 	<div class="md:w-min text-end">
-		<p class="text-yellow-200 font-bold tracking-widest p-0">Fullstack Developer</p>
+		<p class="text-yellow-200 font-bold tracking-widest text-lg p-0">Fullstack Developer</p>
 		<h1 class="text-[clamp(2.50rem,10vw,8rem)] leading-tight font-extrabold">Hugo Korte</h1>
 	</div>
 	<img
@@ -9,7 +9,7 @@
 		alt="profile"
 	/>
 </section>
-<div class="mt-[5vh] flex justify-center">
+<div class="mt-[15vh] flex justify-center">
 	<a
 		class="mx-auto w-fit rounded-md bg-white text-sunset-orange-500 px-4 py-3 font-bold"
 		href="/work">View Work</a
