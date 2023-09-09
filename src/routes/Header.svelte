@@ -8,23 +8,43 @@
 </script>
 
 <header
-	class="bg-white text-sunset-orange-500 font-semibold text-lg sticky top-0 p-6 px-8 rounded-tl-3xl rounded-bl-md rounded-br-3xl rounded-tr-md flex gap-8"
+	class="flex gap-8 bg-white text-sunset-orange-500 font-semibold text-lg sticky top-0 p-6 px-8 rounded-tl-3xl rounded-bl-md rounded-br-3xl rounded-tr-md"
 >
 	<nav class="hidden md:flex gap-[5vw] mx-auto">
-		<a class:active={$page.url.pathname === '/'} href="/">HK</a>
-		<a class:active={$page.url.pathname === '/about'} href="/about">About</a>
-		<a class:active={$page.url.pathname === '/work'} href="/work">Work</a>
-		<a class:active={$page.url.pathname === '/contact'} href="/contact">Contact</a>
+		<a
+			class="hover:opacity-75 transition-opacity"
+			class:active={$page.url.pathname === '/'}
+			href="/">HK</a
+		>
+		<a
+			class="hover:opacity-75 transition-opacity"
+			class:active={$page.url.pathname === '/about'}
+			href="/about">About</a
+		>
+		<a
+			class="hover:opacity-75 transition-opacity"
+			class:active={$page.url.pathname === '/work'}
+			href="/work">Work</a
+		>
+		<a
+			class="hover:opacity-75 transition-opacity"
+			class:active={$page.url.pathname === '/contact'}
+			href="/contact">Contact</a
+		>
 	</nav>
 
-	<button class="md:hidden" use:melt={$trigger}>
+	<button class="hover:opacity-75 transition-opacity md:hidden" use:melt={$trigger}>
 		<i class="fa-solid fa-bars fa-xl" />
 	</button>
 
-	<nav class="flex gap-[2vw] absolute px-8 right-0">
-		<a href="https://github.com/Hugos68" target="_blank"><i class="fa-brands fa-github fa-xl" /></a>
-		<a href="https://www.linkedin.com/in/hugo-korte-1781a2244/" target="_blank"
-			><i class="fa-brands fa-linkedin fa-xl" /></a
+	<nav class="flex gap-4 lg:gap-8 absolute px-8 right-0">
+		<a class="hover:opacity-75 transition-opacity" href="https://github.com/Hugos68" target="_blank"
+			><i class="fa-brands fa-github fa-xl" /></a
+		>
+		<a
+			class="hover:opacity-75 transition-opacity"
+			href="https://www.linkedin.com/in/hugo-korte-1781a2244/"
+			target="_blank"><i class="fa-brands fa-linkedin fa-xl" /></a
 		>
 	</nav>
 </header>
